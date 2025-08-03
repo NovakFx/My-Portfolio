@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Basement Grotesque Regular */
+@font-face {
+  font-family: 'Basement Grotesque';
+  src: url('/fonts/BasementGrotesque-Regular.woff') format('woff');
+  font-weight: normal; /* or 400 */
+  font-style: normal;
+}
+
+body {
+  font-family: 'Basement Grotesque', sans-serif;
+}
+
+.basement-text {
+  font-family: 'Basement Grotesque', sans-serif;
+  font-weight: normal;
+}

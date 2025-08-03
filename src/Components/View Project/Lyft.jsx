@@ -1,0 +1,56 @@
+import React from 'react'
+import { motion } from 'framer-motion';
+
+const Lyft = () => {
+  return (
+    <motion.div className='px-22 pt-40  transition-transform duration-300 h-fit pb-10' style={{ fontFamily: 'Arial, sans-serif',fontStyle: 'normal'}}
+     initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.7, ease: 'easeOut' }}
+      viewport={{ once: true }}
+    >
+      <div className='grid grid-cols-[auto_30%] gap-10 border-b pb-20'>
+        <div>
+           <h1 className='text-gray-400 text-2xl font-normal'>LYFT</h1>
+           <p className='pt-7 text-lg md:text-[22px] text-[rgb(56,53,53)] mb-6 max-w-3xl leading-[34px]'>LYFT is more than just a gym, it's a movement. While most fitness websites follow the same patterns, I set out to craft a unique user experience with bold design, dynamic visuals, and smooth animations. Inspired by high end aesthetics, LYFT blends motion, clarity, and energy to reflect the strength and discipline at the core of every athlete.</p>
+        </div>
+
+        <div className='mt-10 text-gray-600'>
+          <h1>Role:</h1>
+          <p className='pt-2'>UI/UX Design · Frontend & Backend Development Handled everything from designing the interface to building the full stack—UI/UX, API integration, and core functionality.</p>
+        </div>
+
+      </div>
+      <div className='mt-20'>
+        <h1 className='text-2xl'>What It Offers</h1>
+        <p className='pt-4 text-lg text-gray-600 max-w-4xl'>LYFT offers a seamless fitness experience with personalized workout plans, intuitive navigation, membership options, and dynamic visuals—all designed to motivate users and elevate their training journey across all devices.</p>
+        <div className='grid grid-cols-[auto_30%] gap-10 mt-10'>
+          <img src="Images/Lyft.png" alt="Lyft Project Screenshot" className='w-full max-w-[900px] mt-10 rounded-lg shadow-lg border border-gray-200' />
+          <img src="Images/Lyft-mobile.png" alt="Lyft Project Screenshot" className='w-full max-w-[250px] mt-10 rounded-lg ' />
+        </div>
+        <div className='mt-6 gap-4 flex'>
+          <a 
+            href="https://your-live-link.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800 transition-colors duration-300"
+          >
+            View Live Project
+          </a>
+
+          {/* <a 
+            href="https://github.com/your-repo" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800 transition-colors duration-300"
+          >
+            View Source Code
+          </a> */}
+        </div>
+
+     </div> 
+    </motion.div>     
+  )
+}
+
+export default Lyft
