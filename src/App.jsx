@@ -13,6 +13,7 @@ import ArrowUp from './ArrowUp.jsx'
 import ScrollToTop from './ScrollToTop.jsx'
 import Lyft from './Components/View Project/Lyft.jsx';
 import TeamCore from './Components/View Project/TeamCore.jsx';
+import Footer from './Components/Footer.jsx';
 
 function App() {
    const location = useLocation();
@@ -37,6 +38,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </>
   )
 }

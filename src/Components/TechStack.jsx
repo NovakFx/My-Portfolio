@@ -22,13 +22,13 @@ const TechStack = () => {
   return (
     <section className="select-none">
       <motion.h1
-        className="text-4xl font-bold text-center text-gray-800 mb-12"
+        className="text-4xl font-bold text-center text-gray-800 mb-12 basement-text"
         variants={titleVariants}
       >
         Tech Stack
       </motion.h1>
       <div className="container">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 place-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 place-items-center basement-text">
           {techs.map((tech, index) => (
             <motion.div
               key={index}

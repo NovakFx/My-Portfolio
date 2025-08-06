@@ -18,7 +18,7 @@ const ArrowUp = () => {
     <div className="z-50 fixed top-4 right-4 transition-transform duration-500 ease-in-out">
       {isVisible && (
         <motion.button
-          className="fixed bottom-8 right-3 z-50 p-1 xl:p-[6px] rounded-full hover:text-blue-500 text-red-600  shadow-lg hover:border-sky-700 border-[1px] transition-transform duration-300 transform hover:scale-110"
+          className="fixed bottom-8 right-3 z-50 p-1 xl:p-[6px] rounded-full hover:text-[rgba(89,89,89,0.81)] text-[rgb(89,89,89)] shadow-lg hover:border-[rgba(89,89,89,0.73)] border-[1px] transition-transform duration-300 transform hover:scale-110"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           <IoMdArrowUp className="w-6 h-6" />

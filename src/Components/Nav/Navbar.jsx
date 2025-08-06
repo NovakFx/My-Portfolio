@@ -41,7 +41,6 @@ const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Handle scroll visibility
   useEffect(() => {
     const toggleVisibility = () => {
       setIsVisible(window.scrollY > 200);
@@ -51,17 +50,16 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 
-  // Disable/enable scroll when mobile menu is open/closed
   useEffect(() => {
     if (isMobileMenuOpen) {
-      // Save current scroll position and lock scroll
+
       const scrollY = window.scrollY;
       document.body.style.position = 'fixed';
       document.body.style.top = `-${scrollY}px`;
       document.body.style.width = '100%';
       document.body.style.overflow = 'hidden';
     } else {
-      // Restore scroll position and enable scroll
+ 
       const scrollY = document.body.style.top;
       document.body.style.position = '';
       document.body.style.top = '';
@@ -78,7 +76,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className={`fixed top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-md text-white px-4 md:px-7 lg:px-10 xl:px-16 2xl:px-22 ${
+      className={`fixed top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-md text-white px-5 md:px-11 md:pt-2 lg:pt-0 lg:px-10 xl:px-16 2xl:px-22 ${
         isVisible ? 'shadow-md' : ''
       }`}
       variants={navbarVariants}

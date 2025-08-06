@@ -7,7 +7,7 @@ import TechStack from './TechStack';
 
 const Homepage = () => {
   return (
-    <div className='bg-[rgb(242,242,242)] text-gray-900 px-4 md:px-7 lg:px-10 xl:px-16 2xl:px-22 pt-40  h-fit pb-20' style={{ fontFamily: 'Arial, sans-serif',fontStyle: 'normal' }}>
+    <div className='bg-[rgb(242,242,242)] text-gray-900 px-5 md:px-11 lg:px-10 xl:px-16 2xl:px-22 pt-40 2xl:pt-47 h-fit pb-30 md:pb-40 xl:pb-60 2xl:pb-60' style={{ fontFamily: 'Arial, sans-serif',fontStyle: 'normal' }}>
       <motion.div className="pb-10 "
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -118,14 +118,14 @@ const Homepage = () => {
                  </div>
              </section>
        </motion.div>
-         <div className='mt-30 '>
+         <div className=' mt-30 '>
           <TechStack />
-          <div className='mt-30 lg:mt-26 text-[rgb(56,53,53)] select-none'>
+          <div className='mt-30 lg:mt-26 text-[rgb(56,53,53)] select-none overflow-hidden'>
             <h1 className='basement-text font-bold text-3xl lg:text-xl'>Why Hire Me ?</h1>
-            <p className='w-full max-w-xl text md:hover:text-xl pt-4 basement-text cursor-pointer transition-all duration-300'>When you hire me, you're getting someone who knows how to build real, working products—not just write code. I’m a full stack and app developer who’s hands-on from start to finish. I focus on speed, scalability, and clean design that users actually enjoy. I care about what I build, and I make sure every project runs smooth, looks good, and gets the job done.</p>
+            <p className='w-full max-w-xl text md:hover:text-xl pt-4 basement-text cursor-pointer transition-all duration-300'>When you hire me, you're getting someone who knows how to build real, working products not just write code. I’m a full stack and app developer who’s hands-on from start to finish. I focus on speed, scalability, and clean design that users actually enjoy. I care about what I build, and I make sure every project runs smooth, looks good, and gets the job done.</p>
           </div>
         </div>
-       <div className='absolute lg:-bottom-[115rem] xl:-bottom-[110rem] left-0 w-full bg-[rgb(242,242,242)]'>
+       <div>
         <InfiniteMarquee />
         </div>      
     </div>

@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const InfiniteMarquee = () => {
-  const text = "LET'S WORK";
+  const text = "HIRE ME !!!";
   const x = useMotionValue(0);
   const containerRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
@@ -30,11 +30,11 @@ const InfiniteMarquee = () => {
 
   return (
     <div
-      className="bg-[rgb(242,242,242)] overflow-hidden w-full my-10 mt-18 text-5xl md:text-7xl lg:text-7xl xl:text-9xl font-medium whitespace-nowrap basemen-text">
+      className="bg-[rgb(242,242,242)] overflow-hidden absolute left-0 mt-9 md:mt-13 w-full text-5xl md:text-7xl lg:text-7xl xl:text-9xl font-medium whitespace-nowrap basement-text">
       <Link to="/contact">
         <motion.div
           ref={containerRef}
-          className="flex py-4"
+          className="flex py-5"
           style={{ x }}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
