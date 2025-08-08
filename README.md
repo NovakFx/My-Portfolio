@@ -34,14 +34,14 @@ I'm **Jeremiah Austine**, a passionate and versatile **Full Stack Developer** fo
 A modern developer portfolio showcasing my skills, featured projects, and design expertise.  
 **Built With:** React, Tailwind CSS, Framer Motion  
 **Deployed On:** Vercel  
-🔗 [GitHub Repo](#)
+🔗 [https://jeremiah-austine.netlify.app/](#)
 
 ---
 
 ## 🌐 Connect With Me
 
 - 📷 Instagram: [@d_tech_guy_6](https://instagram.com/d_tech_guy_6)
-- 💼 LinkedIn: [Jeremiah Austin](https://linkedin.com/in/jeremiah-austin-60033b33b)
+- 💼 LinkedIn: [Jeremiah Austine](https://linkedin.com/in/jeremiah-austine-60033b33b)
 - 🐦 X (Twitter): [@Novak_Fx](https://twitter.com/Novak_Fx)
 - 💬 WhatsApp: [Chat on WhatsApp](https://wa.me/2349064856777)
 - 📧 Email: jeremiahaustine77@gmail.com

@@ -22,7 +22,7 @@ function App() {
     window.scrollTo(0, 0);
   }, [location.pathname]); 
 
-  return (
+  return (  
     <>
       <Navbar />
       <ArrowUp />
