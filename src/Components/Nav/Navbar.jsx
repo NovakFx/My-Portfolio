@@ -76,7 +76,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className={`fixed top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-md text-white px-5 md:px-11 md:pt-2 lg:pt-0 lg:px-10 xl:px-16 2xl:px-22 ${
+      className={`fixed top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-md text-white px-5 md:px-11 md:pt-2 lg:pt-0 lg:px-10 xl:px-16 2xl:px-22 select-none ${
         isVisible ? 'shadow-md' : ''
       }`}
       variants={navbarVariants}

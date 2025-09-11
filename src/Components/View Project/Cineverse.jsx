@@ -40,11 +40,11 @@ const Cineverse = () => {
           Cineverse lets you dive into the world of movies with fast search, easy discovery, secure access, and stunning visuals. It’s more than just a site—it’s your personal movie experience, anytime, anywhere.
         </p>
 
-        <div className="grid grid-cols-[auto_22%] lg:grid-cols-[auto_300px] gap-10 mt-10">
+        <div className="grid grid-cols-[auto_22%] xl:grid-cols-[auto_300px] gap-10 mt-10">
           <motion.img
             src="Images/Cineverse.png"
             alt="Cineverse Desktop View"
-            className="w-full xl:max-w-5xl rounded-lg shadow-lg border border-gray-200 select-none"
+            className="w-full xl:max-w-5xl rounded-lg select-none"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2, delay: 0.3, ease: 'easeInOut' }}

@@ -41,18 +41,18 @@ const TeamCore = () => {
           TeamCore keeps your team in sync with clear boards, real-time updates, and smooth, simple tools to get work done.
          </p>
  
-         <div className="grid grid-cols-[auto_22%] lg:grid-cols-[auto_300px] gap-10 mt-10">
+         <div className="grid grid-cols-[auto_22%] xl:grid-cols-[auto_300px] gap-10 mt-10">
            <motion.img
-             src="Images/Lyft.png"
+             src="Images/Teamcore.png"
              alt="Lyft Desktop View"
-             className="w-full xl:max-w-5xl rounded-lg shadow-lg border border-gray-200 select-none"
+             className="w-full xl:max-w-5xl rounded-lg select-none"
              initial={{ opacity: 0 }}
              whileInView={{ opacity: 1 }}
              transition={{ duration: 2, delay: 0.3, ease: 'easeInOut' }}
              viewport={{ once: true }}
            />
            <motion.img
-             src="Images/Lyft-mobile.png"
+             src="Images/Teamcore-mobile.png"
              alt="Lyft Mobile View"
              className="w-full max-w-xs lg:max-w-[250px] mx-auto lg:mx-0 rounded-lg select-none"
              initial={{ opacity: 0 }}

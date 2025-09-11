@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; 
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import InfiniteMarquee from './InfiniteMarquee';
@@ -7,11 +7,11 @@ import TechStack from './TechStack';
 import { useEffect } from 'react';
 
 const Homepage = () => {
-   useEffect(() => {
+   useEffect(() => { 
     document.title = "Jeremiah Austine"
   }, [])
   return (
-    <div className='bg-[rgb(242,242,242)] text-gray-900 px-5 md:px-11 lg:px-10 xl:px-16 2xl:px-22 pt-40 2xl:pt-47 h-fit pb-30 md:pb-40 xl:pb-60 2xl:pb-60' style={{ fontFamily: 'Arial, sans-serif',fontStyle: 'normal' }}>
+    <div className='bg-[rgb(242,242,242)] text-gray-900 px-5 md:px-11 lg:px-10 xl:px-16 2xl:px-22 pt-40 2xl:pt-47 h-fit pb-30 md:pb-40 xl:pb-60 2xl:pb-60 select-none' style={{ fontFamily: 'Arial, sans-serif',fontStyle: 'normal' }}>
       <motion.div className="pb-10 "
        initial={{ opacity: 0 }}
        whileInView={{ opacity: 1 }}
@@ -20,7 +20,7 @@ const Homepage = () => {
         ease: 'easeInOut'
       }}
       viewport={{ once: true }}
-      > <div className='grid grid-cols-1 md:grid-cols-[auto_27.5%] 2xl:grid-cols-[auto_22.5%] '>
+      > <div className='grid grid-cols-1 md:grid-cols-[auto_27.5%] 2xl:grid-cols-[auto_22.5%] select-none'>
          <p className="text-xl md:text-3xl lg:text-4xl text-[rgb(56,53,53)] mb-6 lg:max-w-xl xl:max-w-3xl font-medium leading-relaxed md:leading-snug ">
            Hello, my name is <span className="font-bold capitalize text-green-500">Jeremiah Austine</span>. a creative developer with 5+ years of building clean, user-focused websites.
          </p>
@@ -32,7 +32,7 @@ const Homepage = () => {
                <span className="block hover:text-black">that don’t just work, they <span className="italic">wow</span>.</span>
              </div>
     </div>
-         <div className="text- md:text-xl text-green-500  h-8 basement-text font-normal">
+         <div className="text- md:text-xl text-green-500  h-8 basement-text font-normal select-none">
            <Typewriter
              options={{
                loop: true,
@@ -79,19 +79,19 @@ const Homepage = () => {
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
                     <img src="Images/Lyft.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
-                     <h2 className='font-bold text-2xl'>LYFT</h2>
+                     <h2 className='font-bold text-2xl pt-3'>LYFT</h2>
                      <p className='text-sm text-gray-700 pt-2'>LYFT is a sleek gym website for workouts, plans, memberships, and coaching.</p>
                   </div>
                  </Link>
 
-                  <Link to="/PearlsAcademy">
+                  <Link to="/ZortCloud">
                   <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/pearls.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
-                     <h2 className='font-bold text-2xl'>Pearls Academy</h2>
-                     <p className='text-sm text-gray-700 pt-2'>Short description of the project.</p>
+                    <img src="Images/Zortcloud.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+                     <h2 className='font-bold text-2xl pt-3'>ZortCloud</h2>
+                     <p className='text-sm text-gray-700 pt-2'>Zortcloud is a modern platform for CRM, sales, hospital management, and school systems.</p>
                   </div>
                   </Link>
 
@@ -106,13 +106,13 @@ const Homepage = () => {
                   </div>
                   </Link>
 
-                 <Link to="/lyft">
+                 <Link to="/BinWise">
                   <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/Lyft.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
-                     <h2 className='font-bold text-2xl'>LYFT</h2>
+                    <img src="Images/Binwise.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
+                     <h2 className='font-bold text-2xl pt-3'>Bin-Wise</h2>
                      <p className='text-sm text-gray-700 pt-2'>LYFT is a sleek gym website for workouts, plans, memberships, and coaching.</p>
                   </div>
                  </Link>
@@ -122,8 +122,8 @@ const Homepage = () => {
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/pearls.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
-                     <h2 className='font-bold text-2xl'>Pearls Academy</h2>
+                    <img src="Images/pj3.jpg" alt="" className='w-full h-53 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+                     <h2 className='font-bold text-2xl pt-3'>Pearls Academy</h2>
                      <p className='text-sm text-gray-700 pt-2'>Short description of the project.</p>
                   </div>
                   </Link>

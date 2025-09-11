@@ -2,9 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
 
-const Lyft = () => {
+const BinWise = () => {
    useEffect(() => {
-      document.title = "LYFT - Jeremiah Austine"
+      document.title = "BinWise - Jeremiah Austine"
     }, [])
   return (
     <motion.div
@@ -42,7 +42,7 @@ const Lyft = () => {
    
            <div className="grid grid-cols-[auto_22%] xl:grid-cols-[auto_300px] gap-10 mt-10">
              <motion.img
-               src="Images/Lyft.png"
+               src="Images/Binwise.png"
                alt="Lyft Desktop View"
                className="w-full xl:max-w-5xl rounded-lg select-none"
                initial={{ opacity: 0 }}
@@ -51,7 +51,7 @@ const Lyft = () => {
                viewport={{ once: true }}
              />
              <motion.img
-               src="Images/Lyft-mobile.png"
+               src="Images/Binwise-mobile.png"
                alt="Lyft Mobile View"
                className="w-full max-w-xs lg:max-w-[250px] mx-auto lg:mx-0 rounded-lg select-none"
                initial={{ opacity: 0 }}
@@ -69,7 +69,7 @@ const Lyft = () => {
              viewport={{ once: true }}
            >
              <a
-               href="https://cineverse-eta-seven.vercel.app/"
+               href="https://bin-wise-kappa.vercel.app/signup"
                target="_blank"
                rel="noopener noreferrer"
                className="inline-block bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800 transition-colors duration-300"
@@ -82,4 +82,4 @@ const Lyft = () => {
   );
 };
 
-export default Lyft;
+export default BinWise;
