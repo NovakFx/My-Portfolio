@@ -34,7 +34,7 @@ I'm **Jeremiah Austine**, a passionate and versatile **Full Stack Developer** fo
 A modern developer portfolio showcasing my skills, featured projects, and design expertise.  
 **Built With:** React, Tailwind CSS, Framer Motion  
 **Deployed On:** Vercel  
-🔗 [https://jeremiah-austine.netlify.app/](#)
+🔗 (https://jeremiah-austine.netlify.app/)
 
 ---
 
