@@ -20,9 +20,9 @@ const BinWise = () => {
        >
          <div className="grid grid-cols-1 xl:grid-cols-[auto_25%] 2xl:grid-cols-[auto_25%] gap-10 border-b pb-16">
            <div>
-             <h1 className="text-gray-400 md:text-xl 2xl:text-2xl font-normal basement-text">LYFT</h1>
+             <h1 className="text-gray-400 md:text-xl 2xl:text-2xl font-normal basement-text">BinWise</h1>
              <p className="pt-7 text-sm md:text-lg xl:text-2xl 2xl:text-[22px] text-[rgb(56,53,53)] mb-6 max-w-3xl md:leading-7 lg:leading-[34px]">
-               Lyft is a fresh take on the fitness experience. While many gym websites follow the same routine, I wanted to create something that feels alive—energized with bold visuals, fluid animations, and a clean, modern design that puts motivation front and center. It’s a space where training meets inspiration, right at your fingertips.
+              BinWise is a smarter approach to waste management. Instead of the usual static scheduling systems, I designed it to feel practical yet dynamic streamlining pickups, tracking routes, and delivering clear reports. It’s a solution built to make sustainability efficient, organized, and accessible right from your device.
              </p>
            </div>
    
@@ -37,7 +37,7 @@ const BinWise = () => {
          <div className="mt-16">
            <h1 className="text-2xl font-semibold">What It Offers</h1>
            <p className="pt-4 text-base md:text-lg text-gray-600 max-w-4xl leading-relaxed">
-            Lyft helps you crush your fitness goals with quick access, easy navigation, and motivating visuals—your workout, your way, anytime.
+            BinWise helps you manage waste smarter with simple scheduling, real-time tracking, and clear reporting your community, your choice, anytime.
            </p>
    
            <div className="grid grid-cols-[auto_22%] xl:grid-cols-[auto_300px] gap-10 mt-10">

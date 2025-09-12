@@ -8,7 +8,7 @@ const Projects = () => {
     document.title = "Project"
   }, [])
   return (
-    <div className='bg-[rgb(242,242,242)]  px-5 md:px-11 lg:px-10 xl:px-16 2xl:px-22 pt-40 2xl:pt-35 h-fit pb-60'>
+    <div className='bg-[rgb(242,242,242)] px-5 md:px-11 lg:px-10 xl:px-16 pt-40 2xl:pt-35 h-fit pb-60 2xl:pb-20'>
        <motion.div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-16 sm:mt-16'
          initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -30,7 +30,7 @@ const Projects = () => {
            </div>
           </Link>
 
-          <Link to="/ZortCloud">
+          <Link to="/zortcloud">
           <div className=' h-fit p-6 overflow-hidden justify-items-center items-center'>
             <img src="Images/Zortcloud.png" alt="" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
              <h2 className='font-bold text-2xl pt-3 text-center'>ZortCloud</h2>
@@ -44,14 +44,14 @@ const Projects = () => {
            </div>
            </Link>
 
-           <Link to="/BinWise">
+           <Link to="/binwise">
             <div className='p-6 h-fit overflow-hidden justify-items-center items-center'>
               <img src="Images/Binwise.png" alt="" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
                <h2 className='font-bold text-2xl pt-3 text-center'>Bin-Wise</h2>
             </div>
            </Link>
 
-           <Link to="/PearlsAcademy">
+           <Link to="/pearlsacademy">
            <div className='p-6 h-fit overflow-hidden justify-items-center items-center'>
              <img src="Images/pj3.jpg" alt="" className='w-75 h-60 md:h-45 lg:h-36 xl:h-45 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
               <h2 className='font-bold text-2xl pt-3 text-center'>Pearls Academy</h2>

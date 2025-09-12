@@ -84,7 +84,7 @@ const Homepage = () => {
                   </div>
                  </Link>
 
-                  <Link to="/ZortCloud">
+                  <Link to="/zortcloud">
                   <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
@@ -106,25 +106,25 @@ const Homepage = () => {
                   </div>
                   </Link>
 
-                 <Link to="/BinWise">
+                 <Link to="/binwise">
                   <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
                     <img src="Images/Binwise.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
                      <h2 className='font-bold text-2xl pt-3'>Bin-Wise</h2>
-                     <p className='text-sm text-gray-700 pt-2'>LYFT is a sleek gym website for workouts, plans, memberships, and coaching.</p>
+                     <p className='text-sm text-gray-700 pt-2'>BinWise is a waste management application designed to simplify pickup scheduling, route tracking, and reporting.</p>
                   </div>
                  </Link>
 
-                  <Link to="/PearlsAcademy">
+                  <Link to="/pearlsacademy">
                   <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
                     <img src="Images/pj3.jpg" alt="" className='w-full h-53 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
                      <h2 className='font-bold text-2xl pt-3'>Pearls Academy</h2>
-                     <p className='text-sm text-gray-700 pt-2'>Short description of the project.</p>
+                     <p className='text-sm text-gray-700 pt-2'>PearsAcademy makes school management simple, modern, and clear so tracking students, classes, and performance feels effortless.</p>
                   </div>
                   </Link>
 

@@ -36,10 +36,10 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/lyft" element={<Lyft />} /> 
         <Route path="/cineverse" element={<Cineverse />} />
-        <Route path="/ZortCloud" element={<ZortCloud />} />
+        <Route path="/zortcloud" element={<ZortCloud />} />
         <Route path="/teamcore" element={<TeamCore />} />
-        <Route path='/BinWise' element={<BinWise />} />
-        <Route path='/PearlsAcademy' element={<PearlsAcademy />} />
+        <Route path='/binwise' element={<BinWise />} />
+        <Route path='/pearlsacademy' element={<PearlsAcademy />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
