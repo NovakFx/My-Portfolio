@@ -53,7 +53,7 @@ const ZortCloud = () => {
              <motion.img
                src="Images/Zortcloud-mobile.png"
                alt="Lyft Mobile View"
-               className="w-full max-w-xs lg:max-w-[250px] mx-auto lg:mx-0 rounded-lg select-none"
+               className="w-full max-w-xs lg:max-w-[250px] mx-auto lg:mx-0 rounded-t-[43px]  rounded-b-[43px] select-none"
                initial={{ opacity: 0 }}
                whileInView={{ opacity: 1 }}
                transition={{ duration: 2, delay: 0.6, ease: 'easeInOut' }}

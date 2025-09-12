@@ -7,7 +7,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[rgb(242,242,242)] px-6 py-12 pt-40 flex items-center md:px-11 lg:px-10 xl:px-16 2xl:px-22">
+    <div className="min-h-screen bg-[rgb(242,242,242)] px-6 py-12 pt-40 flex items-center md:px-11 lg:px-10 xl:px-16 2xl:pt-22 select-none">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         <motion.div

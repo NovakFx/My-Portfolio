@@ -60,8 +60,8 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className="space-y-8"
         >
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h1>
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4 select-none">Get In Touch</h1>
+          <p className="text-lg text-gray-700 leading-relaxed select-none">
             Let’s connect! Whether you want to collaborate, ask questions, or
             just say hi, I’d love to hear from you. Fill out the form or reach
             out directly through my contact details below.
@@ -78,7 +78,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center space-x-4">
               <FaMapMarkerAlt className="text-blue-600 text-xl" />
-              <span>Lagos, Nigeria</span>
+              <span>Lagos State.</span>
             </div>
           </div>
         </motion.div>
@@ -89,7 +89,7 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className="bg-white p-8 rounded-2xl shadow-lg relative"
         >
-          <h2 className="text-2xl font-semibold text-gray-900 mb-6">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-6 select-none">
             Send a Message
           </h2>
 
@@ -107,7 +107,7 @@ const Contact = () => {
 
           <form className="space-y-5" onSubmit={handleSubmit}>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-gray-700 mb-2 select-none">
                 Name
               </label>
               <input
@@ -116,12 +116,12 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your Name"
-                className="w-full px-4 py-3 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                className="w-full px-4 py-3 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none select-none"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-gray-700 mb-2 select-none">
                 Email
               </label>
               <input
@@ -130,12 +130,12 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="your@email.com"
-                className="w-full px-4 py-3 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                className="w-full px-4 py-3 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none select-none"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-gray-700 mb-2 select-none ">
                 Message
               </label>
               <textarea
@@ -144,13 +144,13 @@ const Contact = () => {
                 onChange={handleChange}
                 rows="4"
                 placeholder="Write your message..."
-                className="w-full px-4 py-3 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                className="w-full px-4 py-3 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none select-none"
               ></textarea>
             </div>
 
             <button
               type="submit"
-              className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
+              className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition select-none"
             >
               Send Message
             </button>
