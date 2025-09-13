@@ -44,7 +44,7 @@ const Cineverse = () => {
           <motion.img
             src="Images/Cineverse.png"
             alt="Cineverse Desktop View"
-            className="w-full xl:max-w-5xl select-none rounded-t-[30px]  rounded-b-[30px]"
+            className="w-full xl:max-w-5xl select-none rounded-t-[5px] rounded-b-[5px] md:rounded-t-[20px] md:rounded-b-[18px] xl:rounded-t-[30px]  xl:rounded-b-[30px] "
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2, delay: 0.3, ease: 'easeInOut' }}
@@ -53,7 +53,7 @@ const Cineverse = () => {
           <motion.img
             src="Images/Cineverse-mobile.png"
             alt="Cineverse Mobile View"
-            className="w-full max-w-xs lg:max-w-[250px] mx-auto lg:mx-0 rounded-t-[43px]  rounded-b-[43px] select-none"
+            className="w-full max-w-xs lg:max-w-[250px] mx-auto lg:mx-0 sm:rounded-t-[23px] sm:rounded-b-[23px] rounded-t-[12px] rounded-b-[12px] md:rounded-t-[24px] md:rounded-b-[24px] lg:rounded-t-[30px] lg:rounded-b-[30px] xl:rounded-t-[43px]  xl:rounded-b-[43px] select-none"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2, delay: 0.6, ease: 'easeInOut' }}
