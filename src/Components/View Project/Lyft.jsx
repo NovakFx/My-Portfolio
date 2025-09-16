@@ -71,7 +71,7 @@ const Lyft = () => {
              viewport={{ once: true }}
            >
              <a
-               href="https://cineverse-eta-seven.vercel.app/"
+              //  href="https://cineverse-eta-seven.vercel.app/"
                target="_blank"
                rel="noopener noreferrer"
                className="inline-block bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800 transition-colors duration-300"

@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   useEffect(() => {
-    document.title = "Contact";
+    document.title = "Contact | Jeremiah Austine";
   }, []);
 
   const [formData, setFormData] = useState({
