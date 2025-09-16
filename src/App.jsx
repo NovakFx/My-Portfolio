@@ -17,11 +17,12 @@ import Footer from './Components/Footer.jsx';
 import BinWise from './Components/View Project/BinWise.jsx';
 import PearlsAcademy from './Components/View Project/PearlsAcademy.jsx';
 import NotFound from './Components/NotFound.jsx';
+import GemfPools from './Components/View Project/GemfPools.jsx';
 
 
 function App() {
-   const location = useLocation();
 
+  const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]); 
@@ -34,6 +35,7 @@ function App() {
       
       <Routes> 
         <Route path="/" element={<Homepage />} />
+        <Route path="/gemfpools" element={<GemfPools />}/>
         <Route path="/lyft" element={<Lyft />} /> 
         <Route path="/cineverse" element={<Cineverse />} />
         <Route path="/zortcloud" element={<ZortCloud />} />

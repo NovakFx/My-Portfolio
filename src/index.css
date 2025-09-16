@@ -3,11 +3,10 @@
 
 
 
-/* Basement Grotesque Regular */
 @font-face {
   font-family: 'Basement Grotesque';
   src: url('/fonts/BasementGrotesque-Regular.woff') format('woff');
-  font-weight: normal; /* or 400 */
+  font-weight: normal;
   font-style: normal;
 }
 

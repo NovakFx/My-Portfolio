@@ -1,49 +1,48 @@
-# Jeremiah Austine — Full Stack Web & App Developer
+# NovakFx — Full Stack Web & App Developer
 
-👋 Welcome to my portfolio repository!
+👋 Welcome to my personal portfolio repository!
 
-I'm **Jeremiah Austine**, a passionate and versatile **Full Stack Developer** focused on building high-performance, scalable, and visually engaging digital experiences across web and mobile platforms.
+I'm **NovakFx (Jeremiah Austine)**, a passionate and versatile **Full Stack Developer** dedicated to building high-performance, scalable, and visually stunning digital experiences across web and mobile platforms.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Languages
-- HTML, CSS, JavaScript, TypeScript, Dart (Flutter)
+- **HTML** | **CSS** | **JavaScript** | **TypeScript** | **Dart (Flutter)**
 
 ### Frameworks & Libraries
-- React, Tailwind CSS, Framer Motion, Flutter, Node.js
+- **React** | **Tailwind CSS** | **Framer Motion**
+- **Flutter** | **Node.js**
 
 ### Databases
-- Firebase, MongoDB
+- **Firebase** | **MongoDB**
 
 ### Tools & Platforms
-- Git & GitHub, Postman, VS Code, Figma
+- **Git & GitHub** | **Postman** | **VS Code** | **Figma**
 
 ### Hosting & Deployment
-- Vercel, Firebase Hosting
+- **Vercel** | **Firebase Hosting**
 
 ### APIs & Integrations
-- Stripe, ScraperAPI, and more...
+- **Stripe**, **ScraperAPI**, and more...
 
 ---
 
-## 🚀 Featured Projects
-
 ### 🎨 Portfolio Website  
-A modern developer portfolio showcasing my skills, featured projects, and design expertise.  
+A modern developer portfolio that highlights my skills, featured projects, and design expertise.  
 **Built With:** React, Tailwind CSS, Framer Motion  
 **Deployed On:** Vercel  
-🔗 (https://jeremiah-austine.netlify.app/)
+🔗 [View Portfolio](https://jeremiah-austine.netlify.app/)
 
 ---
 
 ## 🌐 Connect With Me
 
-- 📷 Instagram: [@d_tech_guy_6](https://instagram.com/d_tech_guy_6)
-- 💼 LinkedIn: [Jeremiah Austine](https://linkedin.com/in/jeremiah-austine-60033b33b)
-- 🐦 X (Twitter): [@Novak_Fx](https://twitter.com/Novak_Fx)
-- 💬 WhatsApp: [Chat on WhatsApp](https://wa.me/2349064856777)
+- 📷 [Instagram: @d_tech_guy_6](https://instagram.com/d_tech_guy_6)
+- 💼 [LinkedIn: Jeremiah Austine](https://linkedin.com/in/jeremiah-austine-60033b33b)
+- 🐦 [X (Twitter): @Novak_Fx](https://twitter.com/Novak_Fx)
+- 💬 [WhatsApp: Chat on WhatsApp](https://wa.me/2349064856777)
 - 📧 Email: jeremiahaustine77@gmail.com
 
 ---
@@ -51,6 +50,4 @@ A modern developer portfolio showcasing my skills, featured projects, and design
 ## 💡 Let's Build Something Great
 
 I'm open to freelance opportunities, collaborations, and exciting new projects.  
-Feel free to reach out — let's make something amazing together!
-
----
+**Feel free to reach out — let's make something amazing together!**

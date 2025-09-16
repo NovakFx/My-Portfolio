@@ -43,7 +43,8 @@ const ZortCloud = () => {
            <div className="grid grid-cols-[auto_22%] xl:grid-cols-[auto_300px] gap-10 mt-10">
              <motion.img
                src="Images/Zortcloud.png"
-               alt="Lyft Desktop View"
+               alt="ZortCloud Desktop View"
+               loading="lazy"
                className="w-full xl:max-w-5xl rounded-lg select-none"
                initial={{ opacity: 0 }}
                whileInView={{ opacity: 1 }}
@@ -52,7 +53,8 @@ const ZortCloud = () => {
              />
              <motion.img
                src="Images/Zortcloud-mobile.png"
-               alt="Lyft Mobile View"
+               alt="ZortCloud Mobile View"
+               loading="lazy"
                className="w-full max-w-xs lg:max-w-[250px] mx-auto lg:mx-0 sm:rounded-t-[23px] sm:rounded-b-[23px] rounded-t-[12px] rounded-b-[12px] md:rounded-t-[24px] md:rounded-b-[24px] lg:rounded-t-[30px] lg:rounded-b-[30px] xl:rounded-t-[43px]  xl:rounded-b-[43px] select-none"
                initial={{ opacity: 0 }}
                whileInView={{ opacity: 1 }}

@@ -67,7 +67,7 @@ const Homepage = () => {
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/Cineverse.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+                    <img src="Images/Cineverse.png" alt="" loading="lazy" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
                      <h2 className='font-bold text-2xl pt-3'>Cineverse</h2>
                      <p className='text-sm text-gray-700 pt-2'>Cineverse is a modern movie website for streaming, search, and reviews.</p>
                   </div>
@@ -78,7 +78,7 @@ const Homepage = () => {
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/Lyft.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
+                    <img src="Images/Lyft.png" alt="" loading="lazy" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
                      <h2 className='font-bold text-2xl pt-3'>LYFT</h2>
                      <p className='text-sm text-gray-700 pt-2'>LYFT is a sleek gym website for workouts, plans, memberships, and coaching.</p>
                   </div>
@@ -89,7 +89,7 @@ const Homepage = () => {
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/Zortcloud.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+                    <img src="Images/Zortcloud.png" loading="lazy" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
                      <h2 className='font-bold text-2xl pt-3'>ZortCloud</h2>
                      <p className='text-sm text-gray-700 pt-2'>Zortcloud is a modern platform for CRM, sales, hospital management, and school systems.</p>
                   </div>
@@ -100,7 +100,7 @@ const Homepage = () => {
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/Teamcore.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+                    <img src="Images/Teamcore.png" alt="" loading="lazy" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95' />
                      <h2 className='font-bold text-2xl pt-3'>TeamCore</h2>
                      <p className='text-sm text-gray-700 pt-2'>TeamCore is a collaborative project management tool designed to enhance team productivity.</p>
                   </div>
@@ -111,7 +111,7 @@ const Homepage = () => {
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/Binwise.png" alt="" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
+                    <img src="Images/Binwise.png" alt="" loading="lazy" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
                      <h2 className='font-bold text-2xl pt-3'>Bin-Wise</h2>
                      <p className='text-sm text-gray-700 pt-2'>BinWise is a waste management application designed to simplify pickup scheduling, route tracking, and reporting.</p>
                   </div>
@@ -122,7 +122,7 @@ const Homepage = () => {
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
                         <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
                      </div>
-                    <img src="Images/pj3.jpg" alt="" className='w-full h-53 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+                    <img src="Images/pj3.jpg" alt="" loading="lazy" className='w-full h-53 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
                      <h2 className='font-bold text-2xl pt-3'>Pearls Academy</h2>
                      <p className='text-sm text-gray-700 pt-2'>PearsAcademy makes school management simple, modern, and clear so tracking students, classes, and performance feels effortless.</p>
                   </div>

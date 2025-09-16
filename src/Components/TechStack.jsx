@@ -38,6 +38,7 @@ const TechStack = () => {
               <img
                 src={tech.src}
                 alt={tech.label}
+                loading="lazy"
                 aria-label={tech.label}
                 className="w-full max-w-[110px] lg:max-w-[110px] xl:max-w-[80px] h-auto object-contain rounded-md select-none"
               />

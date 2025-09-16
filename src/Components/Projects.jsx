@@ -18,42 +18,49 @@ const Projects = () => {
 
          <Link to="/cineverse">
            <div className='p-6 h-fit overflow-hidden justify-items-center items-center'>
-            <img src="Images/Cineverse.png" alt="" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+            <img src="Images/Cineverse.png" alt="" loading="lazy" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
              <h2 className='font-bold text-2xl pt-3 text-center'>Cineverse</h2>
           </div>
           </Link>
 
+          <Link to="/gemfpools">
+           <div className=' h-fit p-6 overflow-hidden justify-items-center items-center'>
+             <img src="Images/Gemf.jpg" alt="" loading="lazy" className='w-75 object-cover transition-transform duration-300 group-hover:scale-95 '/>  
+              <h2 className='font-bold text-2xl pt-3 text-center'>Gemf Pools Ven.</h2>
+           </div>
+          </Link>
+          
           <Link to="/lyft">
            <div className=' h-fit p-6 overflow-hidden justify-items-center items-center'>
-             <img src="Images/Lyft.png" alt="" className='w-75 object-cover transition-transform duration-300 group-hover:scale-95 '/>  
+             <img src="Images/Lyft.png" alt="" loading="lazy" className='w-75 object-cover transition-transform duration-300 group-hover:scale-95 '/>  
               <h2 className='font-bold text-2xl pt-3 text-center'>LYFT</h2>
            </div>
           </Link>
 
           <Link to="/zortcloud">
           <div className=' h-fit p-6 overflow-hidden justify-items-center items-center'>
-            <img src="Images/Zortcloud.png" alt="" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+            <img src="Images/Zortcloud.png" alt="" loading="lazy" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
              <h2 className='font-bold text-2xl pt-3 text-center'>ZortCloud</h2>
           </div>
           </Link>
 
           <Link to="/teamcore">
             <div className=' p-6 h-fit overflow-hidden justify-items-center items-center'>
-             <img src="Images/Teamcore.png" alt="" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+             <img src="Images/Teamcore.png" alt="" loading="lazy" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
               <h2 className='font-bold text-2xl pt-3 text-center'>TeamCore</h2>
            </div>
            </Link>
 
            <Link to="/binwise">
             <div className='p-6 h-fit overflow-hidden justify-items-center items-center'>
-              <img src="Images/Binwise.png" alt="" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
+              <img src="Images/Binwise.png" alt="" loading="lazy" className='w-75 object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
                <h2 className='font-bold text-2xl pt-3 text-center'>Bin-Wise</h2>
             </div>
            </Link>
 
            <Link to="/pearlsacademy">
            <div className='p-6 h-fit overflow-hidden justify-items-center items-center'>
-             <img src="Images/pj3.jpg" alt="" className='w-75 h-60 md:h-45 lg:h-36 xl:h-45 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
+             <img src="Images/pj3.jpg" alt="" loading="lazy" className='w-75 h-60 md:h-45 lg:h-36 xl:h-45 object-cover rounded transition-transform duration-300 group-hover:scale-95' />
               <h2 className='font-bold text-2xl pt-3 text-center'>Pearls Academy</h2>
            </div>
            </Link>
