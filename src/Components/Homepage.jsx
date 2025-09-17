@@ -95,6 +95,17 @@ const Homepage = () => {
                   </div>
                   </Link>
 
+                  <Link to="/binwise">
+                    <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>
+                       <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
+                          <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
+                       </div>
+                      <img src="Images/Binwise.png" alt="" loading="lazy" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
+                       <h2 className='font-bold text-2xl pt-3'>Bin-Wise</h2>
+                       <p className='text-sm text-gray-700 pt-2'>BinWise is a waste management application designed to simplify pickup scheduling, route tracking, and reporting.</p>
+                    </div>
+                  </Link>
+
                  <Link to="/teamcore">
                    <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>   
                      <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
@@ -105,17 +116,6 @@ const Homepage = () => {
                      <p className='text-sm text-gray-700 pt-2'>TeamCore is a collaborative project management tool designed to enhance team productivity.</p>
                   </div>
                   </Link>
-
-                 <Link to="/binwise">
-                  <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>
-                     <div className='absolute inset-0 w-full h-full bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 z-10'>
-                        <p className='text-green-500 font-bold text-lg group-hover:text-2xl z-20 cursor-pointer'>View Project</p>
-                     </div>
-                    <img src="Images/Binwise.png" alt="" loading="lazy" className='w-full object-cover rounded transition-transform duration-300 group-hover:scale-95 '/>  
-                     <h2 className='font-bold text-2xl pt-3'>Bin-Wise</h2>
-                     <p className='text-sm text-gray-700 pt-2'>BinWise is a waste management application designed to simplify pickup scheduling, route tracking, and reporting.</p>
-                  </div>
-                 </Link>
 
                   <Link to="/lyft">
                   <div className='relative group border p-6 rounded-md h-fit overflow-hidden'>
