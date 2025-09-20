@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 const Projects = () => {
    useEffect(() => {
-    document.title = "Project | Jeremiah Austine"
+    document.title = "Project"
   }, [])
   return (
     <div className='bg-[rgb(242,242,242)] px-5 md:px-11 lg:px-10 xl:px-16 pt-40 2xl:pt-35 h-fit pb-60 2xl:pb-20'>
