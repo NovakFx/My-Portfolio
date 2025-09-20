@@ -35,7 +35,7 @@ const Contact = () => {
     setError("");
 
     try {
-      await fetch("https://formsubmit.co/ajax/jeremiahaustine77@gmail.com", {
+      await fetch("https://formsubmit.co/ajax/e5915f8c52b9db8da3e85f92f15f8305", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
